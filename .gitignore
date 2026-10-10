@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/.parcel-cache/
+.eslintcache
+
+# Testing & logs
+.pytest_cache/
+*.log
+.coverage
+htmlcov/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.*.local

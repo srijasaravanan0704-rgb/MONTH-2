@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "subject_snippet": "FREE VIAGRA NOW",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 0.9999,
+    "ham_probability": 0.0001,
+    "timestamp": "2026-10-07T22:34:54.098507"
+  },
+  {
+    "id": 2,
+    "subject_snippet": "Urgent! Claim your cash prize",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 1.0,
+    "ham_probability": 0.0,
+    "timestamp": "2026-10-07T22:34:54.120498"
+  },
+  {
+    "id": 3,
+    "subject_snippet": "Project Update Meeting",
+    "prediction": "ham",
+    "confidence": 99.6,
+    "spam_probability": 0.0041,
+    "ham_probability": 0.9959,
+    "timestamp": "2026-10-07T22:34:54.127428"
+  },
+  {
+    "id": 4,
+    "subject_snippet": "FREE VIAGRA NOW",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 0.9999,
+    "ham_probability": 0.0001,
+    "timestamp": "2026-10-07T22:59:55.690939"
+  },
+  {
+    "id": 5,
+    "subject_snippet": "Urgent! Claim your cash prize",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 1.0,
+    "ham_probability": 0.0,
+    "timestamp": "2026-10-07T22:59:55.845761"
+  },
+  {
+    "id": 6,
+    "subject_snippet": "Project Update Meeting",
+    "prediction": "ham",
+    "confidence": 99.6,
+    "spam_probability": 0.0041,
+    "ham_probability": 0.9959,
+    "timestamp": "2026-10-07T22:59:55.880742"
+  },
+  {
+    "id": 7,
+    "subject_snippet": "FREE VIAGRA NOW",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 0.9999,
+    "ham_probability": 0.0001,
+    "timestamp": "2026-10-07T23:00:28.499103"
+  },
+  {
+    "id": 8,
+    "subject_snippet": "Urgent! Claim your cash prize",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 1.0,
+    "ham_probability": 0.0,
+    "timestamp": "2026-10-07T23:00:28.553836"
+  },
+  {
+    "id": 9,
+    "subject_snippet": "Project Update Meeting",
+    "prediction": "ham",
+    "confidence": 99.6,
+    "spam_probability": 0.0041,
+    "ham_probability": 0.9959,
+    "timestamp": "2026-10-07T23:00:28.564660"
+  },
+  {
+    "id": 10,
+    "subject_snippet": "srijasaravanan0704@gmail.com",
+    "prediction": "spam",
+    "confidence": 73.2,
+    "spam_probability": 0.7321,
+    "ham_probability": 0.2679,
+    "timestamp": "2026-10-08T21:45:16.730711"
+  },
+  {
+    "id": 11,
+    "subject_snippet": "srijasaravanan0704@gmail.com",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 0.9998,
+    "ham_probability": 0.0002,
+    "timestamp": "2026-10-08T21:49:14.356843"
+  },
+  {
+    "id": 12,
+    "subject_snippet": "srijasaravanan0704@gmail.com",
+    "prediction": "spam",
+    "confidence": 98.5,
+    "spam_probability": 0.9855,
+    "ham_probability": 0.0145,
+    "timestamp": "2026-10-08T21:49:40.860742"
+  },
+  {
+    "id": 13,
+    "subject_snippet": "srijasaravanan0704@gmail.com",
+    "prediction": "spam",
+    "confidence": 98.5,
+    "spam_probability": 0.9855,
+    "ham_probability": 0.0145,
+    "timestamp": "2026-10-08T21:49:43.776076"
+  },
+  {
+    "id": 14,
+    "subject_snippet": "CONGRATULATIONS! You won $1,000,000 Cash Prize! Claim Immedi",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 1.0,
+    "ham_probability": 0.0,
+    "timestamp": "2026-10-08T22:14:48.091100"
+  },
+  {
+    "id": 15,
+    "subject_snippet": "Congratulations! You won $1000",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 0.9998,
+    "ham_probability": 0.0002,
+    "timestamp": "2026-10-08T22:16:03.285971"
+  },
+  {
+    "id": 16,
+    "subject_snippet": "Congratulations! You won $1000",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 0.9998,
+    "ham_probability": 0.0002,
+    "timestamp": "2026-10-08T22:16:12.174333"
+  },
+  {
+    "id": 17,
+    "subject_snippet": "Project Meeting Tomorrow",
+    "prediction": "ham",
+    "confidence": 97.0,
+    "spam_probability": 0.0299,
+    "ham_probability": 0.9701,
+    "timestamp": "2026-10-08T22:19:31.773142"
+  },
+  {
+    "id": 18,
+    "subject_snippet": "CONGRATULATIONS! You won $1,000,000 Cash Prize! Claim Immedi",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 1.0,
+    "ham_probability": 0.0,
+    "timestamp": "2026-10-08T22:28:57.989027"
+  },
+  {
+    "id": 19,
+    "subject_snippet": "Project Sync & Quarterly Progress Review Meeting",
+    "prediction": "ham",
+    "confidence": 81.1,
+    "spam_probability": 0.189,
+    "ham_probability": 0.811,
+    "timestamp": "2026-10-08T22:29:28.929861"
+  },
+  {
+    "id": 20,
+    "subject_snippet": "URGENT: Your Bank Account Has Been Suspended!",
+    "prediction": "spam",
+    "confidence": 75.0,
+    "spam_probability": 0.7498,
+    "ham_probability": 0.2502,
+    "timestamp": "2026-10-08T22:30:07.916930"
+  },
+  {
+    "id": 21,
+    "subject_snippet": "Quick Question",
+    "prediction": "ham",
+    "confidence": 61.9,
+    "spam_probability": 0.3807,
+    "ham_probability": 0.6193,
+    "timestamp": "2026-10-08T22:30:27.545607"
+  },
+  {
+    "id": 22,
+    "sender": "winner@unknown-prize.com",
+    "subject": "Congratulations! You won $1000",
+    "body": "Congratulations! You have won a cash prize of $1000.\n\nClaim your prize immediately by clicking the link below.\nYour account will expire if you do not respond today.",
+    "subject_snippet": "Congratulations! You won $1000",
+    "prediction": "spam",
+    "confidence": 99.9,
+    "spam_probability": 0.9993,
+    "ham_probability": 0.0007,
+    "keywords": [
+      "claim",
+      "prize",
+      "Email address",
+      "$ / \u20ac (currency symbol)",
+      "expir",
+      "cash"
+    ],
+    "keyword_details": [
+      {
+        "word": "claim",
+        "raw_word": "claim",
+        "score": 6.102,
+        "log_odds": 6.102,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "prize",
+        "raw_word": "prize",
+        "score": 5.851,
+        "log_odds": 5.851,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "Email address",
+        "raw_word": "emailaddr",
+        "score": 4.043,
+        "log_odds": 4.043,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "$ / \u20ac (currency symbol)",
+        "raw_word": "currencysym",
+        "score": 3.147,
+        "log_odds": 3.147,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "expir",
+        "raw_word": "expir",
+        "score": 2.658,
+        "log_odds": 2.658,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "cash",
+        "raw_word": "cash",
+        "score": 2.106,
+        "log_odds": 2.106,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "respond",
+        "raw_word": "respond",
+        "score": 2.033,
+        "log_odds": -2.033,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "click",
+        "raw_word": "click",
+        "score": 2.025,
+        "log_odds": 2.025,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "not",
+        "raw_word": "not",
+        "score": 1.839,
+        "log_odds": -1.839,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "immedi",
+        "raw_word": "immedi",
+        "score": 1.745,
+        "log_odds": 1.745,
+        "is_spam_indicator": true
+      }
+    ],
+    "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: claim, prize, Email address, $ / \u20ac (currency symbol). These features yielded strong TF-IDF log-odds weights.",
+    "timestamp": "2026-10-09T20:57:52.023582"
+  },
+  {
+    "id": 23,
+    "sender": "manager@company.com",
+    "subject": "Project meeting tomorrow",
+    "body": "Hi Team,\n\nOur project meeting is scheduled for tomorrow at 10 AM.\nPlease review the project updates before the meeting.\n\nThanks.",
+    "subject_snippet": "Project meeting tomorrow",
+    "prediction": "ham",
+    "confidence": 91.2,
+    "spam_probability": 0.0879,
+    "ham_probability": 0.9121,
+    "keywords": [
+      "Email address",
+      "project",
+      "meet",
+      "tomorrow",
+      "hi",
+      "Numbers / Digits"
+    ],
+    "keyword_details": [
+      {
+        "word": "Email address",
+        "raw_word": "emailaddr",
+        "score": 4.043,
+        "log_odds": 4.043,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "project",
+        "raw_word": "project",
+        "score": 2.688,
+        "log_odds": -2.688,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "meet",
+        "raw_word": "meet",
+        "score": 2.09,
+        "log_odds": -2.09,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "tomorrow",
+        "raw_word": "tomorrow",
+        "score": 1.679,
+        "log_odds": -1.679,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "hi",
+        "raw_word": "hi",
+        "score": 1.162,
+        "log_odds": -1.162,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "Numbers / Digits",
+        "raw_word": "num",
+        "score": 1.16,
+        "log_odds": 1.16,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "thank",
+        "raw_word": "thank",
+        "score": 1.069,
+        "log_odds": -1.069,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "updat",
+        "raw_word": "updat",
+        "score": 1.021,
+        "log_odds": 1.021,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "review",
+        "raw_word": "review",
+        "score": 0.997,
+        "log_odds": 0.997,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "team",
+        "raw_word": "team",
+        "score": 0.636,
+        "log_odds": 0.636,
+        "is_spam_indicator": true
+      }
+    ],
+    "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: Email address, Numbers / Digits, updat, review. These features yielded strong TF-IDF log-odds weights.",
+    "timestamp": "2026-10-09T20:59:55.240805"
+  },
+  {
+    "id": 24,
+    "sender": "",
+    "subject": "FREE VIAGRA NOW",
+    "body": "Call 1-800-CLAIM-WINNER to win $500 cash reward immediately!",
+    "subject_snippet": "FREE VIAGRA NOW",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 0.9999,
+    "ham_probability": 0.0001,
+    "keywords": [
+      "claim",
+      "winner",
+      "$ / \u20ac (currency symbol)",
+      "cash",
+      "win",
+      "free"
+    ],
+    "keyword_details": [
+      {
+        "word": "claim",
+        "raw_word": "claim",
+        "score": 6.102,
+        "log_odds": 6.102,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "winner",
+        "raw_word": "winner",
+        "score": 4.529,
+        "log_odds": 4.529,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "$ / \u20ac (currency symbol)",
+        "raw_word": "currencysym",
+        "score": 3.147,
+        "log_odds": 3.147,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "cash",
+        "raw_word": "cash",
+        "score": 2.106,
+        "log_odds": 2.106,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "win",
+        "raw_word": "win",
+        "score": 2.015,
+        "log_odds": 2.015,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "free",
+        "raw_word": "free",
+        "score": 1.76,
+        "log_odds": 1.76,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "immedi",
+        "raw_word": "immedi",
+        "score": 1.745,
+        "log_odds": 1.745,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "reward",
+        "raw_word": "reward",
+        "score": 1.672,
+        "log_odds": 1.672,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "Numbers / Digits",
+        "raw_word": "num",
+        "score": 1.16,
+        "log_odds": 1.16,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "call",
+        "raw_word": "call",
+        "score": 0.62,
+        "log_odds": 0.62,
+        "is_spam_indicator": true
+      }
+    ],
+    "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: claim, winner, $ / \u20ac (currency symbol), cash. These features yielded strong TF-IDF log-odds weights.",
+    "timestamp": "2026-10-09T21:16:50.903471"
+  },
+  {
+    "id": 25,
+    "sender": "",
+    "subject": "Urgent! Claim your cash prize",
+    "body": "Congratulations! You have won $1000 cash. Click http://claim.com now to get your reward!",
+    "subject_snippet": "Urgent! Claim your cash prize",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 1.0,
+    "ham_probability": 0.0,
+    "keywords": [
+      "claim",
+      "prize",
+      "URL / Web link",
+      "urgent",
+      "$ / \u20ac (currency symbol)",
+      "cash"
+    ],
+    "keyword_details": [
+      {
+        "word": "claim",
+        "raw_word": "claim",
+        "score": 6.102,
+        "log_odds": 6.102,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "prize",
+        "raw_word": "prize",
+        "score": 5.851,
+        "log_odds": 5.851,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "URL / Web link",
+        "raw_word": "httpurl",
+        "score": 4.709,
+        "log_odds": 4.709,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "urgent",
+        "raw_word": "urgent",
+        "score": 3.374,
+        "log_odds": 3.374,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "$ / \u20ac (currency symbol)",
+        "raw_word": "currencysym",
+        "score": 3.147,
+        "log_odds": 3.147,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "cash",
+        "raw_word": "cash",
+        "score": 2.106,
+        "log_odds": 2.106,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "click",
+        "raw_word": "click",
+        "score": 2.025,
+        "log_odds": 2.025,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "reward",
+        "raw_word": "reward",
+        "score": 1.672,
+        "log_odds": 1.672,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "congratul",
+        "raw_word": "congratul",
+        "score": 1.566,
+        "log_odds": 1.566,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "Numbers / Digits",
+        "raw_word": "num",
+        "score": 1.16,
+        "log_odds": 1.16,
+        "is_spam_indicator": true
+      }
+    ],
+    "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: claim, prize, URL / Web link, urgent. These features yielded strong TF-IDF log-odds weights.",
+    "timestamp": "2026-10-09T21:16:50.943092"
+  },
+  {
+    "id": 26,
+    "sender": "",
+    "subject": "Project Update Meeting",
+    "body": "Hi team, please find attached the quarterly report. Let us discuss the project schedule tomorrow at 10 AM.",
+    "subject_snippet": "Project Update Meeting",
+    "prediction": "ham",
+    "confidence": 99.6,
+    "spam_probability": 0.0041,
+    "ham_probability": 0.9959,
+    "keywords": [
+      "project",
+      "discuss",
+      "let",
+      "meet",
+      "report",
+      "tomorrow"
+    ],
+    "keyword_details": [
+      {
+        "word": "project",
+        "raw_word": "project",
+        "score": 2.688,
+        "log_odds": -2.688,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "discuss",
+        "raw_word": "discuss",
+        "score": 2.2,
+        "log_odds": -2.2,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "let",
+        "raw_word": "let",
+        "score": 2.151,
+        "log_odds": -2.151,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "meet",
+        "raw_word": "meet",
+        "score": 2.09,
+        "log_odds": -2.09,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "report",
+        "raw_word": "report",
+        "score": 1.686,
+        "log_odds": -1.686,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "tomorrow",
+        "raw_word": "tomorrow",
+        "score": 1.679,
+        "log_odds": -1.679,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "hi",
+        "raw_word": "hi",
+        "score": 1.162,
+        "log_odds": -1.162,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "Numbers / Digits",
+        "raw_word": "num",
+        "score": 1.16,
+        "log_odds": 1.16,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "attach",
+        "raw_word": "attach",
+        "score": 1.123,
+        "log_odds": -1.123,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "updat",
+        "raw_word": "updat",
+        "score": 1.021,
+        "log_odds": 1.021,
+        "is_spam_indicator": true
+      }
+    ],
+    "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: Numbers / Digits, updat, team, pleas. These features yielded strong TF-IDF log-odds weights.",
+    "timestamp": "2026-10-09T21:16:50.952470"
+  },
+  {
+    "id": 27,
+    "sender": "winner@unknown-prize.com",
+    "subject": "winner@unknown-prize.com",
+    "body": "Congratulations! You have won a cash prize of $1000.\n\nClaim your prize immediately. This offer is limited and you must act now.\nClick the link to receive your reward.",
+    "subject_snippet": "winner@unknown-prize.com",
+    "prediction": "spam",
+    "confidence": 99.9,
+    "spam_probability": 0.9991,
+    "ham_probability": 0.0009,
+    "keywords": [
+      "claim",
+      "prize",
+      "Email address",
+      "$ / \u20ac (currency symbol)",
+      "receiv",
+      "cash"
+    ],
+    "keyword_details": [
+      {
+        "word": "claim",
+        "raw_word": "claim",
+        "score": 6.102,
+        "log_odds": 6.102,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "prize",
+        "raw_word": "prize",
+        "score": 5.851,
+        "log_odds": 5.851,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "Email address",
+        "raw_word": "emailaddr",
+        "score": 4.043,
+        "log_odds": 4.043,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "$ / \u20ac (currency symbol)",
+        "raw_word": "currencysym",
+        "score": 3.147,
+        "log_odds": 3.147,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "receiv",
+        "raw_word": "receiv",
+        "score": 2.165,
+        "log_odds": 2.165,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "cash",
+        "raw_word": "cash",
+        "score": 2.106,
+        "log_odds": 2.106,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "offer",
+        "raw_word": "offer",
+        "score": 2.074,
+        "log_odds": 2.074,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "click",
+        "raw_word": "click",
+        "score": 2.025,
+        "log_odds": 2.025,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "act",
+        "raw_word": "act",
+        "score": 1.864,
+        "log_odds": -1.864,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "immedi",
+        "raw_word": "immedi",
+        "score": 1.745,
+        "log_odds": 1.745,
+        "is_spam_indicator": true
+      }
+    ],
+    "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: claim, prize, Email address, $ / \u20ac (currency symbol). These features yielded strong TF-IDF log-odds weights.",
+    "timestamp": "2026-10-10T11:34:05.215847"
+  },
+  {
+    "id": 28,
+    "sender": "claim-dept@lottery-winner-hub.net",
+    "subject": "CONGRATULATIONS! You won $1,000,000 Cash Prize! Claim Immediately!",
+    "body": "Dear Customer,\n\nYou have been selected as the grand prize winner of $1,000,000! To claim your money, reply with your urgent banking details or click the link below immediately.\n\nhttp://bit.ly/claim-free-prize-now\n\nDo not delay, offer expires in 24 hours!",
+    "subject_snippet": "CONGRATULATIONS! You won $1,000,000 Cash Prize! Claim Immedi",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 1.0,
+    "ham_probability": 0.0,
+    "keywords": [
+      "claim",
+      "prize",
+      "URL / Web link",
+      "winner",
+      "Email address",
+      "urgent"
+    ],
+    "keyword_details": [
+      {
+        "word": "claim",
+        "raw_word": "claim",
+        "score": 6.102,
+        "log_odds": 6.102,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "prize",
+        "raw_word": "prize",
+        "score": 5.851,
+        "log_odds": 5.851,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "URL / Web link",
+        "raw_word": "httpurl",
+        "score": 4.709,
+        "log_odds": 4.709,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "winner",
+        "raw_word": "winner",
+        "score": 4.529,
+        "log_odds": 4.529,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "Email address",
+        "raw_word": "emailaddr",
+        "score": 4.043,
+        "log_odds": 4.043,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "urgent",
+        "raw_word": "urgent",
+        "score": 3.374,
+        "log_odds": 3.374,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "$ / \u20ac (currency symbol)",
+        "raw_word": "currencysym",
+        "score": 3.147,
+        "log_odds": 3.147,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "expir",
+        "raw_word": "expir",
+        "score": 2.658,
+        "log_odds": 2.658,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "select",
+        "raw_word": "select",
+        "score": 2.575,
+        "log_odds": 2.575,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "cash",
+        "raw_word": "cash",
+        "score": 2.106,
+        "log_odds": 2.106,
+        "is_spam_indicator": true
+      }
+    ],
+    "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: claim, prize, URL / Web link, winner. These features yielded strong TF-IDF log-odds weights.",
+    "timestamp": "2026-10-10T13:07:46.873366"
+  }
+]
