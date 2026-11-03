@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #080808;
+    --bg-secondary: #121212;
+    --bg-card: #1A1A1A;
+    --border-color: #66521A;
+  }
+
+  body {
+    background-color: #080808;
+    color: #F5F5F5;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    background-image: 
+      radial-gradient(ellipse at 50% -15%, rgba(212, 175, 55, 0.08), transparent 50%),
+      radial-gradient(ellipse at 85% 120%, rgba(255, 215, 0, 0.04), transparent 45%);
+    background-attachment: fixed;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+}
+
+/* Custom Luxury Gold Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2515;
+  border: 1px solid #66521A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+}
+
+/* Cyber Industrial Grid Background with subtle gold tint */
+.cyber-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(212, 175, 55, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(212, 175, 55, 0.04) 1px, transparent 1px);
+}
+
+.cyber-dots {
+  background-image: radial-gradient(rgba(212, 175, 55, 0.12) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Glassmorphism panels - Dark Graphite + Subtle Gold Border */
+.glass-panel {
+  background: rgba(26, 26, 26, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid #66521A;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+}
+
+.glass-panel-glow {
+  background: rgba(26, 26, 26, 0.92);
+  backdrop-filter: blur(14px);
+  border: 1px solid #D4AF37;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.2);
+}
+
+.glass-card-hover {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-card-hover:hover {
+  transform: translateY(-2px);
+  border-color: #D4AF37;
+  box-shadow: 0 12px 30px -10px rgba(212, 175, 55, 0.25);
+}
+
+.glass-input {
+  background: #121212;
+  border: 1px solid #66521A;
+  color: #F5F5F5;
+  transition: all 0.2s ease;
+}
+.glass-input:focus {
+  border-color: #D4AF37;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.25);
+}
+
+/* Metallic Gold Gradients */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #FFF0B3 0%, #FFD700 35%, #D4AF37 70%, #AA820A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #FFF0B3 0%, #FFD700 40%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-amber {
+  background: linear-gradient(135deg, #FFD700 0%, #D4AF37 50%, #B8860B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-rose {
+  background: linear-gradient(135deg, #FDA4AF 0%, #EF4444 50%, #991B1B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Button styles */
+.btn-gold-primary {
+  background: linear-gradient(135deg, #FFD700 0%, #D4AF37 70%, #C59B27 100%);
+  color: #080808;
+  font-weight: 700;
+  border: 1px solid #FFD700;
+  box-shadow: 0 4px 18px rgba(212, 175, 55, 0.35);
+  transition: all 0.2s ease;
+}
+.btn-gold-primary:hover {
+  background: linear-gradient(135deg, #FFF0B3 0%, #FFD700 70%, #D4AF37 100%);
+  box-shadow: 0 6px 24px rgba(212, 175, 55, 0.5);
+  transform: translateY(-1px);
+}
+.btn-gold-primary:active {
+  transform: translateY(0);
+}
+
+.btn-gold-secondary {
+  background: #121212;
+  border: 1px solid #66521A;
+  color: #D4AF37;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+.btn-gold-secondary:hover {
+  background: #1A1A1A;
+  border-color: #D4AF37;
+  color: #FFD700;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.2);
+}
+
+/* Animations */
+@keyframes gold-pulse {
+  0%, 100% { opacity: 1; filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.6)); }
+  50% { opacity: 0.6; filter: drop-shadow(0 0 2px rgba(212, 175, 55, 0.2)); }
+}
+
+.animate-gold-pulse {
+  animation: gold-pulse 3s infinite;
+}
