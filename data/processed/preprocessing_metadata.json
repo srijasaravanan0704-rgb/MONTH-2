@@ -1,0 +1,55 @@
+{
+  "raw_total_records": 492,
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 84,
+  "clean_total_records": 408,
+  "split_summary": {
+    "train": {
+      "count": 275,
+      "phishing": 157,
+      "benign": 118,
+      "campaigns": [
+        "m365_credential_harvest",
+        "payroll_wire_fraud",
+        "it_helpdesk_vpn",
+        "sms_banking_alert_smishing",
+        "fake_invoice_subscription",
+        "legitimate_password_reset",
+        "routine_payroll_statement",
+        "it_maintenance_announcement",
+        "meeting_and_collaboration_benign",
+        "sms_job_recruitment_scam",
+        "sms_legitimate_2fa_codes",
+        "academic_and_research_benign",
+        "cloud_storage_onedrive_phish",
+        "subscription_expiry_scam"
+      ]
+    },
+    "validation": {
+      "count": 28,
+      "phishing": 19,
+      "benign": 9,
+      "campaigns": [
+        "tax_and_crypto_fraud",
+        "travel_hotel_booking_benign"
+      ]
+    },
+    "campaign_holdout": {
+      "count": 105,
+      "phishing": 46,
+      "benign": 59,
+      "campaigns": [
+        "sms_delivery_smishing",
+        "social_engineering_survey_gift",
+        "customer_shipping_order_benign",
+        "sms_legitimate_notifications"
+      ]
+    }
+  },
+  "leakage_safeguards": [
+    "Campaign-separated holdout partitions prevent template overlap",
+    "Text vectorizers fitted strictly on training partition only",
+    "Near-duplicate template pruning using RapidFuzz token_sort_ratio >= 94.0",
+    "Defanged inert URLs avoid active outbound HTTP requests"
+  ]
+}

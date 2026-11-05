@@ -1,0 +1,234 @@
+message_id,channel,subject_or_title,body_text,sanitized_url_features,sender_domain_type,label,campaign_group,collected_date,source_provenance,clean_text
+MSG-1164,email,Internal Revenue Service: Notice of unclaimed tax refund deposit,"Internal Revenue Service (IRS):
+
+Our records indicate you are eligible for an unclaimed tax rebate of $1,420.50 from your 2024 returns. Submit your direct deposit banking details to claim your refund before the deadline:
+
+hxxps[://]irs-refund-claim-portal[.]online/taxpayer-form
+
+Official IRS Treasury Bureau",hxxps[://]irs-refund-claim-portal[.]online/taxpayer-form,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-05,synthetic_educational_tax_crypto_phish,"Internal Revenue Service: Notice of unclaimed tax refund deposit Internal Revenue Service (IRS): Our records indicate you are eligible for an unclaimed tax rebate of $1,420.50 from your 2024 returns. Submit your direct deposit banking details to claim your refund before the deadline: hxxps[://]irs-refund-claim-portal[[.]]online/taxpayer-form Official IRS Treasury Bureau"
+MSG-1166,email,URGENT COMPLIANCE NOTICE: Internal Revenue Service: Notice of unclaimed tax refund deposit,"URGENT COMPLIANCE NOTICE: 
+Internal Revenue Service (IRS):
+
+Our records indicate you are eligible for an unclaimed tax rebate of $1,420.50 from your 2024 returns. Submit your direct deposit banking details to claim your refund before the deadline:
+
+hxxps[://]irs-refund-claim-portal[.]online/taxpayer-form
+
+Official IRS Treasury Bureau
+
+Reference Code: REF-1166",hxxps[://]irs-refund-claim-portal[.]online/taxpayer-form,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-12,synthetic_educational_tax_crypto_phish,"URGENT COMPLIANCE NOTICE: Internal Revenue Service: Notice of unclaimed tax refund deposit URGENT COMPLIANCE NOTICE: Internal Revenue Service (IRS): Our records indicate you are eligible for an unclaimed tax rebate of $1,420.50 from your 2024 returns. Submit your direct deposit banking details to claim your refund before the deadline: hxxps[://]irs-refund-claim-portal[[.]]online/taxpayer-form Official IRS Treasury Bureau Reference Code: REF-1166"
+MSG-1167,email,Internal Revenue Service: Notice of unclaimed tax refund deposit,"Internal Revenue Service (IRS):
+
+Our records indicate you are eligible for an unclaimed tax rebate of $1,420.50 from your 2024 returns. Submit your direct deposit banking details to claim your refund before the deadline:
+
+hxxps[://]irs-refund-claim-portal[.]online/taxpayer-form
+
+Official IRS Treasury Bureau
+
+Please contact our help line if you have questions or require further assistance.
+Confidentiality Notice: This electronic message contains information which may be privileged.",hxxps[://]irs-refund-claim-portal[.]online/taxpayer-form,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-15,synthetic_educational_tax_crypto_phish,"Internal Revenue Service: Notice of unclaimed tax refund deposit Internal Revenue Service (IRS): Our records indicate you are eligible for an unclaimed tax rebate of $1,420.50 from your 2024 returns. Submit your direct deposit banking details to claim your refund before the deadline: hxxps[://]irs-refund-claim-portal[[.]]online/taxpayer-form Official IRS Treasury Bureau Please contact our help line if you have questions or require further assistance. Confidentiality Notice: This electronic message contains information which may be privileged."
+MSG-1168,email,Binance Security: Unauthorized withdrawal of 0.85 BTC detected,"Binance Notification:
+
+New login detected from Mozilla Firefox on Windows 10 in Moscow, Russia. If you did not authorize this, revoke API keys and lock account:
+
+hxxps[://]binance-anti-phishing-gate[.]info/disable
+
+Binance Support",hxxps[://]binance-anti-phishing-gate[.]info/disable,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-05,synthetic_educational_tax_crypto_phish,"Binance Security: Unauthorized withdrawal of 0.85 BTC detected Binance Notification: New login detected from Mozilla Firefox on Windows 10 in Moscow, Russia. If you did not authorize this, revoke API keys and lock account: hxxps[://]binance-anti-phishing-gate[[.]]info/disable Binance Support"
+MSG-1169,email,[Customer Success] Binance Security: Unauthorized withdrawal of 0.85 BTC detected,"Hello Jordan Smith,
+Binance Notification:
+
+New login detected from Mozilla Firefox on Windows 10 in Moscow, Russia. If you did not authorize this, revoke API keys and lock account:
+
+hxxps[://]binance-anti-phishing-gate[.]info/disable
+
+Binance Support",hxxps[://]binance-anti-phishing-gate[.]info/disable,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-09,synthetic_educational_tax_crypto_phish,"[Customer Success] Binance Security: Unauthorized withdrawal of 0.85 BTC detected Hello Jordan Smith, Binance Notification: New login detected from Mozilla Firefox on Windows 10 in Moscow, Russia. If you did not authorize this, revoke API keys and lock account: hxxps[://]binance-anti-phishing-gate[[.]]info/disable Binance Support"
+MSG-1170,email,URGENT COMPLIANCE NOTICE: Binance Security: Unauthorized withdrawal of 0.85 BTC detected,"URGENT COMPLIANCE NOTICE: 
+Binance Notification:
+
+New login detected from Mozilla Firefox on Windows 10 in Moscow, Russia. If you did not authorize this, revoke API keys and lock account:
+
+hxxps[://]binance-anti-phishing-gate[.]info/disable
+
+Binance Support
+
+Reference Code: REF-1170",hxxps[://]binance-anti-phishing-gate[.]info/disable,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-12,synthetic_educational_tax_crypto_phish,"URGENT COMPLIANCE NOTICE: Binance Security: Unauthorized withdrawal of 0.85 BTC detected URGENT COMPLIANCE NOTICE: Binance Notification: New login detected from Mozilla Firefox on Windows 10 in Moscow, Russia. If you did not authorize this, revoke API keys and lock account: hxxps[://]binance-anti-phishing-gate[[.]]info/disable Binance Support Reference Code: REF-1170"
+MSG-1171,email,Binance Security: Unauthorized withdrawal of 0.85 BTC detected,"Binance Notification:
+
+New login detected from Mozilla Firefox on Windows 10 in Moscow, Russia. If you did not authorize this, revoke API keys and lock account:
+
+hxxps[://]binance-anti-phishing-gate[.]info/disable
+
+Binance Support
+
+Please contact our help line if you have questions or require further assistance.
+Confidentiality Notice: This electronic message contains information which may be privileged.",hxxps[://]binance-anti-phishing-gate[.]info/disable,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-15,synthetic_educational_tax_crypto_phish,"Binance Security: Unauthorized withdrawal of 0.85 BTC detected Binance Notification: New login detected from Mozilla Firefox on Windows 10 in Moscow, Russia. If you did not authorize this, revoke API keys and lock account: hxxps[://]binance-anti-phishing-gate[[.]]info/disable Binance Support Please contact our help line if you have questions or require further assistance. Confidentiality Notice: This electronic message contains information which may be privileged."
+MSG-1172,email,Coinbase Support: Your account will be restricted within 24 hours,"Coinbase Account Alert:
+
+A withdrawal request for 0.85 BTC ($55,200) was requested to external wallet 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa. If you did not request this transfer, freeze your wallet instantly:
+
+hxxps[://]coinbase-wallet-cancel[.]cc/revoke-tx
+
+Coinbase Security Operations",hxxps[://]coinbase-wallet-cancel[.]cc/revoke-tx,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-05,synthetic_educational_tax_crypto_phish,"Coinbase Support: Your account will be restricted within 24 hours Coinbase Account Alert: A withdrawal request for 0.85 BTC ($55,200) was requested to external wallet 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa. If you did not request this transfer, freeze your wallet instantly: hxxps[://]coinbase-wallet-cancel[[.]]cc/revoke-tx Coinbase Security Operations"
+MSG-1174,email,URGENT COMPLIANCE NOTICE: Coinbase Support: Your account will be restricted within 24 hours,"URGENT COMPLIANCE NOTICE: 
+Coinbase Account Alert:
+
+A withdrawal request for 0.85 BTC ($55,200) was requested to external wallet 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa. If you did not request this transfer, freeze your wallet instantly:
+
+hxxps[://]coinbase-wallet-cancel[.]cc/revoke-tx
+
+Coinbase Security Operations
+
+Reference Code: REF-1174",hxxps[://]coinbase-wallet-cancel[.]cc/revoke-tx,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-12,synthetic_educational_tax_crypto_phish,"URGENT COMPLIANCE NOTICE: Coinbase Support: Your account will be restricted within 24 hours URGENT COMPLIANCE NOTICE: Coinbase Account Alert: A withdrawal request for 0.85 BTC ($55,200) was requested to external wallet 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa. If you did not request this transfer, freeze your wallet instantly: hxxps[://]coinbase-wallet-cancel[[.]]cc/revoke-tx Coinbase Security Operations Reference Code: REF-1174"
+MSG-1175,email,Coinbase Support: Your account will be restricted within 24 hours,"Coinbase Account Alert:
+
+A withdrawal request for 0.85 BTC ($55,200) was requested to external wallet 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa. If you did not request this transfer, freeze your wallet instantly:
+
+hxxps[://]coinbase-wallet-cancel[.]cc/revoke-tx
+
+Coinbase Security Operations
+
+Please contact our help line if you have questions or require further assistance.
+Confidentiality Notice: This electronic message contains information which may be privileged.",hxxps[://]coinbase-wallet-cancel[.]cc/revoke-tx,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-15,synthetic_educational_tax_crypto_phish,"Coinbase Support: Your account will be restricted within 24 hours Coinbase Account Alert: A withdrawal request for 0.85 BTC ($55,200) was requested to external wallet 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa. If you did not request this transfer, freeze your wallet instantly: hxxps[://]coinbase-wallet-cancel[[.]]cc/revoke-tx Coinbase Security Operations Please contact our help line if you have questions or require further assistance. Confidentiality Notice: This electronic message contains information which may be privileged."
+MSG-1176,email,IRS Notification: Final Notice of Tax Assessment Underpayment,"IRS Final Notice:
+
+An outstanding tax deficiency of $3,190.00 is recorded under your SSN. A lien will be placed on your financial accounts unless paid within 72 hours.
+
+Settle payment via federal gateway: hxxps[://]irs-tax-settlement[.]vip/pay-bill
+
+Internal Revenue Service",hxxps[://]irs-tax-settlement[.]vip/pay-bill,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-05,synthetic_educational_tax_crypto_phish,"IRS Notification: Final Notice of Tax Assessment Underpayment IRS Final Notice: An outstanding tax deficiency of $3,190.00 is recorded under your SSN. A lien will be placed on your financial accounts unless paid within 72 hours. Settle payment via federal gateway: hxxps[://]irs-tax-settlement[[.]]vip/pay-bill Internal Revenue Service"
+MSG-1178,email,URGENT COMPLIANCE NOTICE: IRS Notification: Final Notice of Tax Assessment Underpayment,"URGENT COMPLIANCE NOTICE: 
+IRS Final Notice:
+
+An outstanding tax deficiency of $3,190.00 is recorded under your SSN. A lien will be placed on your financial accounts unless paid within 72 hours.
+
+Settle payment via federal gateway: hxxps[://]irs-tax-settlement[.]vip/pay-bill
+
+Internal Revenue Service
+
+Reference Code: REF-1178",hxxps[://]irs-tax-settlement[.]vip/pay-bill,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-12,synthetic_educational_tax_crypto_phish,"URGENT COMPLIANCE NOTICE: IRS Notification: Final Notice of Tax Assessment Underpayment URGENT COMPLIANCE NOTICE: IRS Final Notice: An outstanding tax deficiency of $3,190.00 is recorded under your SSN. A lien will be placed on your financial accounts unless paid within 72 hours. Settle payment via federal gateway: hxxps[://]irs-tax-settlement[[.]]vip/pay-bill Internal Revenue Service Reference Code: REF-1178"
+MSG-1179,email,IRS Notification: Final Notice of Tax Assessment Underpayment,"IRS Final Notice:
+
+An outstanding tax deficiency of $3,190.00 is recorded under your SSN. A lien will be placed on your financial accounts unless paid within 72 hours.
+
+Settle payment via federal gateway: hxxps[://]irs-tax-settlement[.]vip/pay-bill
+
+Internal Revenue Service
+
+Please contact our help line if you have questions or require further assistance.
+Confidentiality Notice: This electronic message contains information which may be privileged.",hxxps[://]irs-tax-settlement[.]vip/pay-bill,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-15,synthetic_educational_tax_crypto_phish,"IRS Notification: Final Notice of Tax Assessment Underpayment IRS Final Notice: An outstanding tax deficiency of $3,190.00 is recorded under your SSN. A lien will be placed on your financial accounts unless paid within 72 hours. Settle payment via federal gateway: hxxps[://]irs-tax-settlement[[.]]vip/pay-bill Internal Revenue Service Please contact our help line if you have questions or require further assistance. Confidentiality Notice: This electronic message contains information which may be privileged."
+MSG-1180,email,MetaMask Warning: Immediate Wallet KYC Verification Required,"Attention MetaMask User:
+
+Under decentralized finance compliance rule 14B, all active Ethereum wallets must complete identity validation to prevent transaction halting.
+
+Connect wallet: hxxps[://]metamask-kyc-validator[.]xyz/connect
+
+Ethereum Foundation Compliance",hxxps[://]metamask-kyc-validator[.]xyz/connect,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-05,synthetic_educational_tax_crypto_phish,"MetaMask Warning: Immediate Wallet KYC Verification Required Attention MetaMask User: Under decentralized finance compliance rule 14B, all active Ethereum wallets must complete identity validation to prevent transaction halting. Connect wallet: hxxps[://]metamask-kyc-validator[[.]]xyz/connect Ethereum Foundation Compliance"
+MSG-1182,email,URGENT COMPLIANCE NOTICE: MetaMask Warning: Immediate Wallet KYC Verification Required,"URGENT COMPLIANCE NOTICE: 
+Attention MetaMask User:
+
+Under decentralized finance compliance rule 14B, all active Ethereum wallets must complete identity validation to prevent transaction halting.
+
+Connect wallet: hxxps[://]metamask-kyc-validator[.]xyz/connect
+
+Ethereum Foundation Compliance
+
+Reference Code: REF-1182",hxxps[://]metamask-kyc-validator[.]xyz/connect,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-12,synthetic_educational_tax_crypto_phish,"URGENT COMPLIANCE NOTICE: MetaMask Warning: Immediate Wallet KYC Verification Required URGENT COMPLIANCE NOTICE: Attention MetaMask User: Under decentralized finance compliance rule 14B, all active Ethereum wallets must complete identity validation to prevent transaction halting. Connect wallet: hxxps[://]metamask-kyc-validator[[.]]xyz/connect Ethereum Foundation Compliance Reference Code: REF-1182"
+MSG-1183,email,MetaMask Warning: Immediate Wallet KYC Verification Required,"Attention MetaMask User:
+
+Under decentralized finance compliance rule 14B, all active Ethereum wallets must complete identity validation to prevent transaction halting.
+
+Connect wallet: hxxps[://]metamask-kyc-validator[.]xyz/connect
+
+Ethereum Foundation Compliance
+
+Please contact our help line if you have questions or require further assistance.
+Confidentiality Notice: This electronic message contains information which may be privileged.",hxxps[://]metamask-kyc-validator[.]xyz/connect,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-15,synthetic_educational_tax_crypto_phish,"MetaMask Warning: Immediate Wallet KYC Verification Required Attention MetaMask User: Under decentralized finance compliance rule 14B, all active Ethereum wallets must complete identity validation to prevent transaction halting. Connect wallet: hxxps[://]metamask-kyc-validator[[.]]xyz/connect Ethereum Foundation Compliance Please contact our help line if you have questions or require further assistance. Confidentiality Notice: This electronic message contains information which may be privileged."
+MSG-1184,email,Social Security Administration: Suspension Notice Regarding SSN,"Social Security Administration Notice:
+
+Your Social Security Number has been linked to criminal activities in south Texas. To dispute immediate arrest warrants and asset freezing, confirm identity:
+
+hxxps[://]ssa-identity-verification[.]club/dispute
+
+Office of the Inspector General",hxxps[://]ssa-identity-verification[.]club/dispute,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-05,synthetic_educational_tax_crypto_phish,"Social Security Administration: Suspension Notice Regarding SSN Social Security Administration Notice: Your Social Security Number has been linked to criminal activities in south Texas. To dispute immediate arrest warrants and asset freezing, confirm identity: hxxps[://]ssa-identity-verification[[.]]club/dispute Office of the Inspector General"
+MSG-1186,email,URGENT COMPLIANCE NOTICE: Social Security Administration: Suspension Notice Regarding SSN,"URGENT COMPLIANCE NOTICE: 
+Social Security Administration Notice:
+
+Your Social Security Number has been linked to criminal activities in south Texas. To dispute immediate arrest warrants and asset freezing, confirm identity:
+
+hxxps[://]ssa-identity-verification[.]club/dispute
+
+Office of the Inspector General
+
+Reference Code: REF-1186",hxxps[://]ssa-identity-verification[.]club/dispute,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-12,synthetic_educational_tax_crypto_phish,"URGENT COMPLIANCE NOTICE: Social Security Administration: Suspension Notice Regarding SSN URGENT COMPLIANCE NOTICE: Social Security Administration Notice: Your Social Security Number has been linked to criminal activities in south Texas. To dispute immediate arrest warrants and asset freezing, confirm identity: hxxps[://]ssa-identity-verification[[.]]club/dispute Office of the Inspector General Reference Code: REF-1186"
+MSG-1187,email,Social Security Administration: Suspension Notice Regarding SSN,"Social Security Administration Notice:
+
+Your Social Security Number has been linked to criminal activities in south Texas. To dispute immediate arrest warrants and asset freezing, confirm identity:
+
+hxxps[://]ssa-identity-verification[.]club/dispute
+
+Office of the Inspector General
+
+Please contact our help line if you have questions or require further assistance.
+Confidentiality Notice: This electronic message contains information which may be privileged.",hxxps[://]ssa-identity-verification[.]club/dispute,suspicious_free_domain,phishing,tax_and_crypto_fraud,2026-10-15,synthetic_educational_tax_crypto_phish,"Social Security Administration: Suspension Notice Regarding SSN Social Security Administration Notice: Your Social Security Number has been linked to criminal activities in south Texas. To dispute immediate arrest warrants and asset freezing, confirm identity: hxxps[://]ssa-identity-verification[[.]]club/dispute Office of the Inspector General Please contact our help line if you have questions or require further assistance. Confidentiality Notice: This electronic message contains information which may be privileged."
+MSG-1464,email,Marriott Bonvoy: Confirmation for your upcoming stay,"Dear Alex,
+
+Your reservation at San Francisco Marriott Marquis is confirmed for check-in on Nov 12, 2026. Confirmation #84920194. View reservation and digital room key in the Marriott Bonvoy app:
+hxxps[://]www[.]marriott[.]com/reservation
+
+We look forward to hosting you!",hxxps[://]www[.]marriott[.]com/reservation,legitimate_hospitality,benign,travel_hotel_booking_benign,2026-10-05,synthetic_educational_benign_travel,"Marriott Bonvoy: Confirmation for your upcoming stay Dear Alex, Your reservation at San Francisco Marriott Marquis is confirmed for check-in on Nov 12, 2026. Confirmation #84920194. View reservation and digital room key in the Marriott Bonvoy app: hxxps[://]www[[.]]marriott[[.]]com/reservation We look forward to hosting you!"
+MSG-1467,email,Marriott Bonvoy: Confirmation for your upcoming stay,"Dear Alex,
+
+Your reservation at San Francisco Marriott Marquis is confirmed for check-in on Nov 12, 2026. Confirmation #84920194. View reservation and digital room key in the Marriott Bonvoy app:
+hxxps[://]www[.]marriott[.]com/reservation
+
+We look forward to hosting you!
+
+Please contact our help line if you have questions or require further assistance.
+Confidentiality Notice: This electronic message contains information which may be privileged.",hxxps[://]www[.]marriott[.]com/reservation,legitimate_hospitality,benign,travel_hotel_booking_benign,2026-10-15,synthetic_educational_benign_travel,"Marriott Bonvoy: Confirmation for your upcoming stay Dear Alex, Your reservation at San Francisco Marriott Marquis is confirmed for check-in on Nov 12, 2026. Confirmation #84920194. View reservation and digital room key in the Marriott Bonvoy app: hxxps[://]www[[.]]marriott[[.]]com/reservation We look forward to hosting you! Please contact our help line if you have questions or require further assistance. Confidentiality Notice: This electronic message contains information which may be privileged."
+MSG-1468,email,Delta Air Lines: Electronic Ticket Receipt,"Delta e-Ticket Confirmation #00689218491.
+Passenger: Taylor Chen. Flight DL 1204 departing Atlanta (ATL) to Seattle (SEA). Total fare: $389.20.
+Check in online 24h prior to flight at hxxps[://]www[.]delta[.]com/checkin
+
+Fly Delta",hxxps[://]www[.]delta[.]com/checkin,legitimate_hospitality,benign,travel_hotel_booking_benign,2026-10-05,synthetic_educational_benign_travel,Delta Air Lines: Electronic Ticket Receipt Delta e-Ticket Confirmation #00689218491. Passenger: Taylor Chen. Flight DL 1204 departing Atlanta (ATL) to Seattle (SEA). Total fare: $389.20. Check in online 24h prior to flight at hxxps[://]www[[.]]delta[[.]]com/checkin Fly Delta
+MSG-1469,email,[Customer Success] Delta Air Lines: Electronic Ticket Receipt,"Hello Sam Wilson,
+Delta e-Ticket Confirmation #00689218491.
+Passenger: Taylor Chen. Flight DL 1204 departing Atlanta (ATL) to Seattle (SEA). Total fare: $389.20.
+Check in online 24h prior to flight at hxxps[://]www[.]delta[.]com/checkin
+
+Fly Delta",hxxps[://]www[.]delta[.]com/checkin,legitimate_hospitality,benign,travel_hotel_booking_benign,2026-10-09,synthetic_educational_benign_travel,"[Customer Success] Delta Air Lines: Electronic Ticket Receipt Hello Sam Wilson, Delta e-Ticket Confirmation #00689218491. Passenger: Taylor Chen. Flight DL 1204 departing Atlanta (ATL) to Seattle (SEA). Total fare: $389.20. Check in online 24h prior to flight at hxxps[://]www[[.]]delta[[.]]com/checkin Fly Delta"
+MSG-1470,email,UPDATE: Delta Air Lines: Electronic Ticket Receipt,"UPDATE: 
+Delta e-Ticket Confirmation #00689218491.
+Passenger: Taylor Chen. Flight DL 1204 departing Atlanta (ATL) to Seattle (SEA). Total fare: $389.20.
+Check in online 24h prior to flight at hxxps[://]www[.]delta[.]com/checkin
+
+Fly Delta
+
+Reference Code: REF-1470",hxxps[://]www[.]delta[.]com/checkin,legitimate_hospitality,benign,travel_hotel_booking_benign,2026-10-12,synthetic_educational_benign_travel,UPDATE: Delta Air Lines: Electronic Ticket Receipt UPDATE: Delta e-Ticket Confirmation #00689218491. Passenger: Taylor Chen. Flight DL 1204 departing Atlanta (ATL) to Seattle (SEA). Total fare: $389.20. Check in online 24h prior to flight at hxxps[://]www[[.]]delta[[.]]com/checkin Fly Delta Reference Code: REF-1470
+MSG-1471,email,Delta Air Lines: Electronic Ticket Receipt,"Delta e-Ticket Confirmation #00689218491.
+Passenger: Taylor Chen. Flight DL 1204 departing Atlanta (ATL) to Seattle (SEA). Total fare: $389.20.
+Check in online 24h prior to flight at hxxps[://]www[.]delta[.]com/checkin
+
+Fly Delta
+
+Please contact our help line if you have questions or require further assistance.
+Confidentiality Notice: This electronic message contains information which may be privileged.",hxxps[://]www[.]delta[.]com/checkin,legitimate_hospitality,benign,travel_hotel_booking_benign,2026-10-15,synthetic_educational_benign_travel,Delta Air Lines: Electronic Ticket Receipt Delta e-Ticket Confirmation #00689218491. Passenger: Taylor Chen. Flight DL 1204 departing Atlanta (ATL) to Seattle (SEA). Total fare: $389.20. Check in online 24h prior to flight at hxxps[://]www[[.]]delta[[.]]com/checkin Fly Delta Please contact our help line if you have questions or require further assistance. Confidentiality Notice: This electronic message contains information which may be privileged.
+MSG-1472,email,Hertz Car Rental: Rental Confirmation & Pick-up Instructions,"Hi Jordan,
+
+Your Hertz Gold Plus reservation #H-892149 is ready for pick up at O'Hare International Airport (ORD). Vehicle Class: Midsize SUV. Pick up vehicle directly from stall #42.
+
+Hertz Car Rental",none,legitimate_hospitality,benign,travel_hotel_booking_benign,2026-10-05,synthetic_educational_benign_travel,"Hertz Car Rental: Rental Confirmation & Pick-up Instructions Hi Jordan, Your Hertz Gold Plus reservation #H-892149 is ready for pick up at O'Hare International Airport (ORD). Vehicle Class: Midsize SUV. Pick up vehicle directly from stall #42. Hertz Car Rental"
+MSG-1474,email,UPDATE: Hertz Car Rental: Rental Confirmation & Pick-up Instructions,"UPDATE: 
+Hi Jordan,
+
+Your Hertz Gold Plus reservation #H-892149 is ready for pick up at O'Hare International Airport (ORD). Vehicle Class: Midsize SUV. Pick up vehicle directly from stall #42.
+
+Hertz Car Rental
+
+Reference Code: REF-1474",none,legitimate_hospitality,benign,travel_hotel_booking_benign,2026-10-12,synthetic_educational_benign_travel,"UPDATE: Hertz Car Rental: Rental Confirmation & Pick-up Instructions UPDATE: Hi Jordan, Your Hertz Gold Plus reservation #H-892149 is ready for pick up at O'Hare International Airport (ORD). Vehicle Class: Midsize SUV. Pick up vehicle directly from stall #42. Hertz Car Rental Reference Code: REF-1474"
+MSG-1475,email,Hertz Car Rental: Rental Confirmation & Pick-up Instructions,"Hi Jordan,
+
+Your Hertz Gold Plus reservation #H-892149 is ready for pick up at O'Hare International Airport (ORD). Vehicle Class: Midsize SUV. Pick up vehicle directly from stall #42.
+
+Hertz Car Rental
+
+Please contact our help line if you have questions or require further assistance.
+Confidentiality Notice: This electronic message contains information which may be privileged.",none,legitimate_hospitality,benign,travel_hotel_booking_benign,2026-10-15,synthetic_educational_benign_travel,"Hertz Car Rental: Rental Confirmation & Pick-up Instructions Hi Jordan, Your Hertz Gold Plus reservation #H-892149 is ready for pick up at O'Hare International Airport (ORD). Vehicle Class: Midsize SUV. Pick up vehicle directly from stall #42. Hertz Car Rental Please contact our help line if you have questions or require further assistance. Confidentiality Notice: This electronic message contains information which may be privileged."
