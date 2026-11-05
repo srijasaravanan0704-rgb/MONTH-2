@@ -1,13 +1,18 @@
 const resolveApiBaseUrl = () => {
-  const envUrl = import.meta.env.VITE_API_URL;
+  let envUrl = import.meta.env.VITE_API_URL;
   if (envUrl && typeof envUrl === 'string' && envUrl.trim() !== '') {
-    return envUrl.trim().replace(/\/+$/, '');
+    envUrl = envUrl.trim().replace(/\/+$/, '');
+    // Automatically prepend https:// if protocol is omitted (e.g. from Render Blueprint property: host)
+    if (!/^https?:\/\//i.test(envUrl)) {
+      envUrl = `https://${envUrl}`;
+    }
+    return envUrl;
   }
   // In development, default to local FastAPI server
   if (import.meta.env.DEV) {
     return 'http://127.0.0.1:8000';
   }
-  // In production (e.g. Vercel unified deployment), relative path uses the same host
+  // Default to relative path if on same domain or reverse proxy
   return '';
 };
 

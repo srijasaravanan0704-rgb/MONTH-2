@@ -37,18 +37,26 @@ origins = [
     "http://localhost:8080",
 ]
 
-custom_origins = os.getenv("CORS_ORIGINS")
-if custom_origins:
-    origins.extend([o.strip() for o in custom_origins.split(",") if o.strip()])
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins if custom_origins else ["*"],
-    allow_origin_regex=r"https://.*\.vercel\.app|https://.*\.onrender\.com" if not custom_origins else None,
-    allow_credentials=True if custom_origins else False,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+custom_origins_env = os.getenv("CORS_ORIGINS", "").strip()
+if custom_origins_env and custom_origins_env != "*":
+    for o in custom_origins_env.split(","):
+        if o.strip():
+            origins.append(o.strip())
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=origins,
+        allow_origin_regex=r"https://.*\.onrender\.com|https://.*\.vercel\.app",
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+else:
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 
 # Include Routers - standard endpoints
 app.include_router(health.router)

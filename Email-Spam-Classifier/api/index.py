@@ -13,3 +13,4 @@ for p in [ROOT_DIR, BACKEND_DIR]:
 
 # Import the FastAPI application
 from app.main import app
+
