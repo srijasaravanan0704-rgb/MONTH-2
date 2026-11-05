@@ -1,0 +1,99 @@
+{
+  "dataset_name": "UCI / Kaggle SMS & Email Spam Collection",
+  "dataset_size": 5566,
+  "train_samples": 4452,
+  "test_samples": 1114,
+  "feature_count": 5000,
+  "selected_algorithm": "Multinomial Naive Bayes",
+  "selected_metrics": {
+    "accuracy": 0.9901,
+    "precision": 0.9929,
+    "recall": 0.9333,
+    "f1_score": 0.9622,
+    "false_positives": 1,
+    "false_negatives": 10,
+    "true_negatives": 963,
+    "true_positives": 140,
+    "confusion_matrix": [
+      [
+        963,
+        1
+      ],
+      [
+        10,
+        140
+      ]
+    ]
+  },
+  "all_models_comparison": {
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9901,
+      "precision": 0.9929,
+      "recall": 0.9333,
+      "f1_score": 0.9622,
+      "false_positives": 1,
+      "false_negatives": 10,
+      "true_negatives": 963,
+      "true_positives": 140,
+      "confusion_matrix": [
+        [
+          963,
+          1
+        ],
+        [
+          10,
+          140
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9838,
+      "precision": 0.9286,
+      "recall": 0.9533,
+      "f1_score": 0.9408,
+      "false_positives": 11,
+      "false_negatives": 7,
+      "true_negatives": 953,
+      "true_positives": 143,
+      "confusion_matrix": [
+        [
+          953,
+          11
+        ],
+        [
+          7,
+          143
+        ]
+      ]
+    },
+    "Support Vector Machine": {
+      "accuracy": 0.9874,
+      "precision": 0.9533,
+      "recall": 0.9533,
+      "f1_score": 0.9533,
+      "false_positives": 7,
+      "false_negatives": 7,
+      "true_negatives": 957,
+      "true_positives": 143,
+      "confusion_matrix": [
+        [
+          957,
+          7
+        ],
+        [
+          7,
+          143
+        ]
+      ]
+    }
+  },
+  "preprocessing_details": {
+    "lowercasing": true,
+    "url_normalization": true,
+    "email_normalization": true,
+    "currency_normalization": true,
+    "punctuation_tokenization": true,
+    "stopword_removal": true,
+    "stemming": "PorterStemmer"
+  }
+}
