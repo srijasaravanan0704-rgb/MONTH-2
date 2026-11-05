@@ -4,13 +4,15 @@ from datetime import datetime
 
 class EmailRequest(BaseModel):
     sender: Optional[str] = Field(default="", description="Sender email address")
-    subject: str = Field(default="", max_length=2000, description="Subject line of the email")
-    body: str = Field(default="", max_length=50000, description="Main body content of the email")
+    subject: Optional[str] = Field(default="", max_length=2000, description="Subject line of the email")
+    body: Optional[str] = Field(default="", max_length=50000, description="Main body content of the email")
 
-    @field_validator('body')
+    @field_validator('sender', 'subject', 'body', mode='before')
     @classmethod
-    def validate_content_body(cls, v: str) -> str:
-        return v or ""
+    def coerce_none_to_str(cls, v) -> str:
+        if v is None:
+            return ""
+        return str(v)
 
     def get_combined_text(self) -> str:
         s = self.subject.strip()

@@ -50863,6 +50863,214 @@
   },
   {
     "id": 520,
+    "sender": "winner@lottery.xyz",
+    "subject": "Urgent!",
+    "body": "Click here to claim  prize",
+    "subject_snippet": "Urgent!",
+    "prediction": "spam",
+    "confidence": 100.0,
+    "spam_probability": 1.0,
+    "ham_probability": 0.0,
+    "keywords": [
+      "claim",
+      "prize",
+      "urgent",
+      "click",
+      "! (exclamation mark)"
+    ],
+    "keyword_details": [
+      {
+        "word": "claim",
+        "raw_word": "claim",
+        "score": 6.102,
+        "log_odds": 6.102,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "prize",
+        "raw_word": "prize",
+        "score": 5.851,
+        "log_odds": 5.851,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "urgent",
+        "raw_word": "urgent",
+        "score": 3.374,
+        "log_odds": 3.374,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "click",
+        "raw_word": "click",
+        "score": 2.025,
+        "log_odds": 2.025,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "! (exclamation mark)",
+        "raw_word": "exclam",
+        "score": 0.309,
+        "log_odds": 0.309,
+        "is_spam_indicator": true
+      }
+    ],
+    "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: claim, prize, urgent, click. These features yielded strong TF-IDF log-odds weights.",
+    "timestamp": "2026-11-05T14:20:09.094244",
+    "risk_score": 100,
+    "threat_level": "Critical Threat",
+    "threat_category": "Promotional Spam / Bulk Mail",
+    "urgency_level": "High",
+    "tamil_summary": "\u0b8e\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bc8! \u0b87\u0ba8\u0bcd\u0ba4 \u0bae\u0bbf\u0ba9\u0bcd\u0ba9\u0b9e\u0bcd\u0b9a\u0bb2\u0bbf\u0bb2\u0bcd \u0b86\u0baa\u0ba4\u0bcd\u0ba4\u0bbe\u0ba9/\u0b9a\u0ba8\u0bcd\u0ba4\u0bc7\u0b95\u0ba4\u0bcd\u0ba4\u0bbf\u0bb1\u0bcd\u0b95\u0bbf\u0b9f\u0bae\u0bbe\u0ba9 \u0b85\u0b9a\u0bcd\u0b9a\u0bc1\u0bb1\u0bc1\u0ba4\u0bcd\u0ba4\u0bb2\u0bcd\u0b95\u0bb3\u0bcd \u0b95\u0ba3\u0bcd\u0b9f\u0bb1\u0bbf\u0baf\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0bc1\u0bb3\u0bcd\u0bb3\u0ba9. \u0b87\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1\u0b95\u0bb3\u0bc8 \u0ba4\u0bbf\u0bb1\u0b95\u0bcd\u0b95\u0bbe\u0ba4\u0bc0\u0bb0\u0bcd\u0b95\u0bb3\u0bcd."
+  },
+  {
+    "id": 521,
+    "sender": "security@paypal-notice.xyz",
+    "subject": "Urgent Account Verification",
+    "body": "Dear Customer, your bank account is locked. Click here: http://paypal.security-update.xyz/login",
+    "subject_snippet": "Urgent Account Verification",
+    "prediction": "spam",
+    "confidence": 91.0,
+    "spam_probability": 0.91,
+    "ham_probability": 0.09,
+    "keywords": [
+      "URL / Web link",
+      "urgent",
+      "click",
+      "custom",
+      "account",
+      "lock"
+    ],
+    "keyword_details": [
+      {
+        "word": "URL / Web link",
+        "raw_word": "httpurl",
+        "score": 4.709,
+        "log_odds": 4.709,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "urgent",
+        "raw_word": "urgent",
+        "score": 3.374,
+        "log_odds": 3.374,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "click",
+        "raw_word": "click",
+        "score": 2.025,
+        "log_odds": 2.025,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "custom",
+        "raw_word": "custom",
+        "score": 1.892,
+        "log_odds": 1.892,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "lock",
+        "raw_word": "lock",
+        "score": 1.397,
+        "log_odds": -1.397,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "dear",
+        "raw_word": "dear",
+        "score": 1.292,
+        "log_odds": -1.292,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "account",
+        "raw_word": "account",
+        "score": 0.624,
+        "log_odds": 0.624,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "bank",
+        "raw_word": "bank",
+        "score": 0.546,
+        "log_odds": -0.546,
+        "is_spam_indicator": false
+      }
+    ],
+    "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: URL / Web link, urgent, click, custom. These features yielded strong TF-IDF log-odds weights.",
+    "timestamp": "2026-11-05T14:26:53.426546",
+    "risk_score": 91,
+    "threat_level": "Critical Threat",
+    "threat_category": "Phishing / Credential Theft",
+    "urgency_level": "High",
+    "tamil_summary": "\u0b8e\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bc8! \u0b87\u0ba8\u0bcd\u0ba4 \u0bae\u0bbf\u0ba9\u0bcd\u0ba9\u0b9e\u0bcd\u0b9a\u0bb2\u0bcd \u0b89\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b95\u0b9f\u0bb5\u0bc1\u0b9a\u0bcd\u0b9a\u0bca\u0bb2\u0bcd \u0b85\u0bb2\u0bcd\u0bb2\u0ba4\u0bc1 \u0ba4\u0ba9\u0bbf\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f \u0ba4\u0b95\u0bb5\u0bb2\u0bcd\u0b95\u0bb3\u0bc8 \u0ba4\u0bbf\u0bb0\u0bc1\u0b9f \u0bae\u0bc1\u0baf\u0bb1\u0bcd\u0b9a\u0bbf\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b86\u0baa\u0ba4\u0bcd\u0ba4\u0bbe\u0ba9 Phishing \u0bae\u0bcb\u0b9a\u0b9f\u0bbf. \u0b8e\u0ba8\u0bcd\u0ba4 \u0b87\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc8\u0baf\u0bc1\u0bae\u0bcd \u0b95\u0bbf\u0bb3\u0bbf\u0b95\u0bcd \u0b9a\u0bc6\u0baf\u0bcd\u0baf\u0bbe\u0ba4\u0bc0\u0bb0\u0bcd\u0b95\u0bb3\u0bcd."
+  },
+  {
+    "id": 522,
+    "sender": "service@paypal.xyz",
+    "subject": "Urgent Verification",
+    "body": "Your bank account is locked http://paypal.security.xyz",
+    "subject_snippet": "Urgent Verification",
+    "prediction": "spam",
+    "confidence": 84.0,
+    "spam_probability": 0.84,
+    "ham_probability": 0.16,
+    "keywords": [
+      "URL / Web link",
+      "urgent",
+      "account",
+      "lock",
+      "bank"
+    ],
+    "keyword_details": [
+      {
+        "word": "URL / Web link",
+        "raw_word": "httpurl",
+        "score": 4.709,
+        "log_odds": 4.709,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "urgent",
+        "raw_word": "urgent",
+        "score": 3.374,
+        "log_odds": 3.374,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "lock",
+        "raw_word": "lock",
+        "score": 1.397,
+        "log_odds": -1.397,
+        "is_spam_indicator": false
+      },
+      {
+        "word": "account",
+        "raw_word": "account",
+        "score": 0.624,
+        "log_odds": 0.624,
+        "is_spam_indicator": true
+      },
+      {
+        "word": "bank",
+        "raw_word": "bank",
+        "score": 0.546,
+        "log_odds": -0.546,
+        "is_spam_indicator": false
+      }
+    ],
+    "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: URL / Web link, urgent, account. These features yielded strong TF-IDF log-odds weights.",
+    "timestamp": "2026-11-05T14:27:05.516832",
+    "risk_score": 84,
+    "threat_level": "High Risk",
+    "threat_category": "Phishing / Credential Theft",
+    "urgency_level": "High",
+    "tamil_summary": "\u0b8e\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bc8! \u0b87\u0ba8\u0bcd\u0ba4 \u0bae\u0bbf\u0ba9\u0bcd\u0ba9\u0b9e\u0bcd\u0b9a\u0bb2\u0bcd \u0b89\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b95\u0b9f\u0bb5\u0bc1\u0b9a\u0bcd\u0b9a\u0bca\u0bb2\u0bcd \u0b85\u0bb2\u0bcd\u0bb2\u0ba4\u0bc1 \u0ba4\u0ba9\u0bbf\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f \u0ba4\u0b95\u0bb5\u0bb2\u0bcd\u0b95\u0bb3\u0bc8 \u0ba4\u0bbf\u0bb0\u0bc1\u0b9f \u0bae\u0bc1\u0baf\u0bb1\u0bcd\u0b9a\u0bbf\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b86\u0baa\u0ba4\u0bcd\u0ba4\u0bbe\u0ba9 Phishing \u0bae\u0bcb\u0b9a\u0b9f\u0bbf. \u0b8e\u0ba8\u0bcd\u0ba4 \u0b87\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc8\u0baf\u0bc1\u0bae\u0bcd \u0b95\u0bbf\u0bb3\u0bbf\u0b95\u0bcd \u0b9a\u0bc6\u0baf\u0bcd\u0baf\u0bbe\u0ba4\u0bc0\u0bb0\u0bcd\u0b95\u0bb3\u0bcd."
+  },
+  {
+    "id": 523,
     "sender": "",
     "subject": "FREE VIAGRA NOW",
     "body": "Call 1-800-CLAIM-WINNER to win $500 cash reward immediately!",
@@ -50952,7 +51160,7 @@
       }
     ],
     "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: claim, winner, $ / \u20ac (currency symbol), cash. These features yielded strong TF-IDF log-odds weights.",
-    "timestamp": "2026-11-05T14:01:50.920026",
+    "timestamp": "2026-11-05T14:27:14.807352",
     "risk_score": 100,
     "threat_level": "Critical Threat",
     "threat_category": "Promotional Spam / Bulk Mail",
@@ -50960,7 +51168,7 @@
     "tamil_summary": "\u0b8e\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bc8! \u0b87\u0ba8\u0bcd\u0ba4 \u0bae\u0bbf\u0ba9\u0bcd\u0ba9\u0b9e\u0bcd\u0b9a\u0bb2\u0bbf\u0bb2\u0bcd \u0b86\u0baa\u0ba4\u0bcd\u0ba4\u0bbe\u0ba9/\u0b9a\u0ba8\u0bcd\u0ba4\u0bc7\u0b95\u0ba4\u0bcd\u0ba4\u0bbf\u0bb1\u0bcd\u0b95\u0bbf\u0b9f\u0bae\u0bbe\u0ba9 \u0b85\u0b9a\u0bcd\u0b9a\u0bc1\u0bb1\u0bc1\u0ba4\u0bcd\u0ba4\u0bb2\u0bcd\u0b95\u0bb3\u0bcd \u0b95\u0ba3\u0bcd\u0b9f\u0bb1\u0bbf\u0baf\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0bc1\u0bb3\u0bcd\u0bb3\u0ba9. \u0b87\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1\u0b95\u0bb3\u0bc8 \u0ba4\u0bbf\u0bb1\u0b95\u0bcd\u0b95\u0bbe\u0ba4\u0bc0\u0bb0\u0bcd\u0b95\u0bb3\u0bcd."
   },
   {
-    "id": 521,
+    "id": 524,
     "sender": "sarah.jenkins@company.com",
     "subject": "Project Meeting Review",
     "body": "Hi team, please find attached the weekly progress report for tomorrow morning.",
@@ -51050,7 +51258,7 @@
       }
     ],
     "explanation": "This email uses standard conversational phrasing and terms typically found in legitimate communications, such as: morn, project, meet, report.",
-    "timestamp": "2026-11-05T14:01:51.194997",
+    "timestamp": "2026-11-05T14:27:14.850363",
     "risk_score": 2,
     "threat_level": "Clean / Safe",
     "threat_category": "Legitimate Email",
@@ -51058,7 +51266,7 @@
     "tamil_summary": "\u0b87\u0ba8\u0bcd\u0ba4 \u0bae\u0bbf\u0ba9\u0bcd\u0ba9\u0b9e\u0bcd\u0b9a\u0bb2\u0bcd \u0baa\u0bbe\u0ba4\u0bc1\u0b95\u0bbe\u0baa\u0bcd\u0baa\u0bbe\u0ba9\u0ba4\u0bc1. \u0b87\u0ba4\u0bbf\u0bb2\u0bcd \u0b8e\u0ba8\u0bcd\u0ba4\u0bb5\u0bbf\u0ba4 \u0b85\u0b9a\u0bcd\u0b9a\u0bc1\u0bb1\u0bc1\u0ba4\u0bcd\u0ba4\u0bb2\u0bcd\u0b95\u0bb3\u0bcb \u0b85\u0bb2\u0bcd\u0bb2\u0ba4\u0bc1 \u0b8f\u0bae\u0bbe\u0bb1\u0bcd\u0bb1\u0bc1 \u0bb5\u0bc7\u0bb2\u0bc8\u0b95\u0bb3\u0bcb \u0b95\u0ba3\u0bcd\u0b9f\u0bb1\u0bbf\u0baf\u0baa\u0bcd\u0baa\u0b9f\u0bb5\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8."
   },
   {
-    "id": 522,
+    "id": 525,
     "sender": "security-alert@paypal-update-account.xyz",
     "subject": "PayPal: Account Suspended within 24 hours",
     "body": "Your PayPal account has been locked. Verify your credit card credentials immediately at http://bit.ly/paypal-verify",
@@ -51148,7 +51356,7 @@
       }
     ],
     "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: URL / Web link, credit, immedi, verifi. These features yielded strong TF-IDF log-odds weights.",
-    "timestamp": "2026-11-05T14:01:51.455961",
+    "timestamp": "2026-11-05T14:27:14.895091",
     "risk_score": 90,
     "threat_level": "Critical Threat",
     "threat_category": "Phishing / Credential Theft",
@@ -51156,7 +51364,7 @@
     "tamil_summary": "\u0b8e\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bc8! \u0b87\u0ba8\u0bcd\u0ba4 \u0bae\u0bbf\u0ba9\u0bcd\u0ba9\u0b9e\u0bcd\u0b9a\u0bb2\u0bcd \u0b89\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b95\u0b9f\u0bb5\u0bc1\u0b9a\u0bcd\u0b9a\u0bca\u0bb2\u0bcd \u0b85\u0bb2\u0bcd\u0bb2\u0ba4\u0bc1 \u0ba4\u0ba9\u0bbf\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f \u0ba4\u0b95\u0bb5\u0bb2\u0bcd\u0b95\u0bb3\u0bc8 \u0ba4\u0bbf\u0bb0\u0bc1\u0b9f \u0bae\u0bc1\u0baf\u0bb1\u0bcd\u0b9a\u0bbf\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0b86\u0baa\u0ba4\u0bcd\u0ba4\u0bbe\u0ba9 Phishing \u0bae\u0bcb\u0b9a\u0b9f\u0bbf. \u0b8e\u0ba8\u0bcd\u0ba4 \u0b87\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc8\u0baf\u0bc1\u0bae\u0bcd \u0b95\u0bbf\u0bb3\u0bbf\u0b95\u0bcd \u0b9a\u0bc6\u0baf\u0bcd\u0baf\u0bbe\u0ba4\u0bc0\u0bb0\u0bcd\u0b95\u0bb3\u0bcd."
   },
   {
-    "id": 523,
+    "id": 526,
     "sender": "",
     "subject": "Urgent! Claim your cash prize",
     "body": "Congratulations! You have won $1000 cash. Click http://claim.com now to get your reward!",
@@ -51246,7 +51454,7 @@
       }
     ],
     "explanation": "This email contains suspicious patterns and high-risk terms commonly associated with spam, such as: claim, prize, URL / Web link, urgent. These features yielded strong TF-IDF log-odds weights.",
-    "timestamp": "2026-11-05T14:01:51.667975",
+    "timestamp": "2026-11-05T14:27:14.943027",
     "risk_score": 100,
     "threat_level": "Critical Threat",
     "threat_category": "Financial / Lottery Scam",
@@ -51254,7 +51462,7 @@
     "tamil_summary": "\u0b8e\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bc8! \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0baa\u0bcb\u0bb2\u0bbf \u0baa\u0ba3/\u0baa\u0bb0\u0bbf\u0b9a\u0bc1 \u0bae\u0bcb\u0b9a\u0b9f\u0bbf (Financial Scam). \u0bb5\u0b99\u0bcd\u0b95\u0bbf \u0bb5\u0bbf\u0bb5\u0bb0\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0b95\u0bbf\u0bb0 \u0bb5\u0bc7\u0ba3\u0bcd\u0b9f\u0bbe\u0bae\u0bcd, \u0baa\u0ba3\u0bae\u0bcd \u0b9a\u0bc6\u0bb2\u0bc1\u0ba4\u0bcd\u0ba4 \u0bb5\u0bc7\u0ba3\u0bcd\u0b9f\u0bbe\u0bae\u0bcd."
   },
   {
-    "id": 524,
+    "id": 527,
     "sender": "",
     "subject": "Project Update Meeting",
     "body": "Hi team, please find attached the quarterly report. Let us discuss the project schedule tomorrow at 10 AM.",
@@ -51344,7 +51552,7 @@
       }
     ],
     "explanation": "This email uses standard conversational phrasing and terms typically found in legitimate communications, such as: project, discuss, let, meet.",
-    "timestamp": "2026-11-05T14:01:51.826138",
+    "timestamp": "2026-11-05T14:27:14.985436",
     "risk_score": 0,
     "threat_level": "Clean / Safe",
     "threat_category": "Legitimate Email",

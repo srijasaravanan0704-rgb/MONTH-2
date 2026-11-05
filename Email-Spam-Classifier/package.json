@@ -1,0 +1,10 @@
+{
+  "name": "email-spam-classifier-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production Email Spam Detection System with FastAPI & React Vite",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev"
+  }
+}

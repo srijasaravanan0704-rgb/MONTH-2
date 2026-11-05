@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 from typing import Optional, List, Dict, Any
 from fastapi import APIRouter, HTTPException, status, Query
@@ -7,18 +8,31 @@ from app.services.predictor import predictor_service
 
 router = APIRouter(tags=["Prediction"])
 
-SAMPLE_DATASET_PATH = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "..", "..", "ml", "dataset", "sample_500_emails.json")
-)
+def _find_sample_dataset_path() -> Optional[str]:
+    curr = os.path.dirname(os.path.abspath(__file__))
+    candidates = [
+        os.path.abspath(os.path.join(curr, "..", "..", "models", "sample_500_emails.json")),
+        os.path.abspath(os.path.join(curr, "..", "..", "..", "ml", "dataset", "sample_500_emails.json")),
+        os.path.abspath(os.path.join(os.getcwd(), "backend", "models", "sample_500_emails.json")),
+        os.path.abspath(os.path.join(os.getcwd(), "models", "sample_500_emails.json")),
+        os.path.abspath(os.path.join(os.getcwd(), "ml", "dataset", "sample_500_emails.json")),
+        "/var/task/backend/models/sample_500_emails.json",
+        "/var/task/models/sample_500_emails.json",
+    ]
+    for p in candidates:
+        if os.path.exists(p):
+            return p
+    return None
 
 _cached_samples: Optional[List[Dict[str, Any]]] = None
 
 def _get_samples() -> List[Dict[str, Any]]:
     global _cached_samples
     if _cached_samples is None:
-        if os.path.exists(SAMPLE_DATASET_PATH):
+        sample_path = _find_sample_dataset_path()
+        if sample_path and os.path.exists(sample_path):
             try:
-                with open(SAMPLE_DATASET_PATH, "r", encoding="utf-8") as f:
+                with open(sample_path, "r", encoding="utf-8") as f:
                     _cached_samples = json.load(f)
             except Exception:
                 _cached_samples = []
@@ -73,8 +87,8 @@ def predict_email_spam(request: EmailRequest):
     Classifies input email subject and body as SPAM or HAM using the trained ML model.
     """
     sender = request.sender.strip() if request.sender else ""
-    subject = request.subject.strip()
-    body = request.body.strip()
+    subject = request.subject.strip() if request.subject else ""
+    body = request.body.strip() if request.body else ""
     
     if not sender and not subject and not body:
         raise HTTPException(

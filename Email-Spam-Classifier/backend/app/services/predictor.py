@@ -1,21 +1,48 @@
-
 import os
+import sys
 import json
 import numpy as np
 import joblib
 from datetime import datetime
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
+
+# Ensure app imports resolve regardless of execution environment
+CURRENT_FILE_DIR = os.path.dirname(os.path.abspath(__file__))
+BACKEND_DIR = os.path.abspath(os.path.join(CURRENT_FILE_DIR, "..", ".."))
+ROOT_DIR = os.path.abspath(os.path.join(BACKEND_DIR, ".."))
+for p in [BACKEND_DIR, ROOT_DIR]:
+    if p not in sys.path:
+        sys.path.insert(0, p)
 
 from app.services.preprocessing import preprocess_text
 from app.services.keyword_extractor import extract_suspicious_keywords
 from app.services.threat_analyzer import run_deep_threat_analysis
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODELS_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "models"))
-MODEL_PATH = os.path.join(MODELS_DIR, "spam_model.pkl")
-VECTORIZER_PATH = os.path.join(MODELS_DIR, "tfidf_vectorizer.pkl")
-METRICS_PATH = os.path.join(MODELS_DIR, "model_metrics.json")
-HISTORY_PATH = os.path.join(MODELS_DIR, "prediction_history.json")
+def _resolve_models_dir() -> str:
+    candidates = [
+        os.path.abspath(os.path.join(CURRENT_FILE_DIR, "..", "..", "models")),
+        os.path.abspath(os.path.join(CURRENT_FILE_DIR, "..", "models")),
+        os.path.abspath(os.path.join(os.getcwd(), "backend", "models")),
+        os.path.abspath(os.path.join(os.getcwd(), "models")),
+        "/var/task/backend/models",
+        "/var/task/models",
+    ]
+    for d in candidates:
+        if os.path.exists(os.path.join(d, "spam_model.pkl")):
+            return d
+    return candidates[0]
+
+def _get_history_write_path(primary_path: str, filename: str) -> str:
+    # If in Vercel or AWS Lambda, write to /tmp (only writable directory)
+    if os.environ.get("VERCEL") or os.environ.get("AWS_LAMBDA_FUNCTION_NAME"):
+        return os.path.join("/tmp", filename)
+    try:
+        pdir = os.path.dirname(primary_path)
+        if os.path.exists(pdir) and os.access(pdir, os.W_OK):
+            return primary_path
+    except Exception:
+        pass
+    return os.path.join("/tmp", filename)
 
 class SpamPredictorService:
     def __init__(self):
@@ -29,25 +56,34 @@ class SpamPredictorService:
 
     def _load_artifacts(self):
         try:
-            if os.path.exists(MODEL_PATH) and os.path.exists(VECTORIZER_PATH):
-                self.model = joblib.load(MODEL_PATH)
-                self.vectorizer = joblib.load(VECTORIZER_PATH)
+            models_dir = _resolve_models_dir()
+            model_p = os.path.join(models_dir, "spam_model.pkl")
+            vect_p = os.path.join(models_dir, "tfidf_vectorizer.pkl")
+            metrics_p = os.path.join(models_dir, "model_metrics.json")
+
+            if os.path.exists(model_p) and os.path.exists(vect_p):
+                self.model = joblib.load(model_p)
+                self.vectorizer = joblib.load(vect_p)
                 self.is_loaded = True
-                print("ML Model and TF-IDF Vectorizer successfully loaded.")
+                print(f"ML Model and TF-IDF Vectorizer successfully loaded from {models_dir}.")
             else:
-                print(f"Warning: Model files not found at {MODELS_DIR}")
+                print(f"Warning: Model files not found in {models_dir}")
             
-            if os.path.exists(METRICS_PATH):
-                with open(METRICS_PATH, "r") as f:
+            if os.path.exists(metrics_p):
+                with open(metrics_p, "r", encoding="utf-8") as f:
                     self.metrics = json.load(f)
         except Exception as e:
             print(f"Error loading model artifacts: {e}")
             self.is_loaded = False
 
     def _load_history(self):
-        if os.path.exists(HISTORY_PATH):
+        tmp_history = os.path.join("/tmp", "prediction_history.json")
+        primary_history = os.path.join(_resolve_models_dir(), "prediction_history.json")
+        path_to_load = tmp_history if os.path.exists(tmp_history) else primary_history
+
+        if os.path.exists(path_to_load):
             try:
-                with open(HISTORY_PATH, "r") as f:
+                with open(path_to_load, "r", encoding="utf-8") as f:
                     self.prediction_history = json.load(f)
             except Exception:
                 self.prediction_history = []
@@ -55,15 +91,24 @@ class SpamPredictorService:
             self.prediction_history = []
 
     def _save_history(self):
+        primary_history = os.path.join(_resolve_models_dir(), "prediction_history.json")
+        target_path = _get_history_write_path(primary_history, "prediction_history.json")
         try:
-            with open(HISTORY_PATH, "w") as f:
-                json.dump(self.prediction_history[-1000:], f, indent=2) # keep last 1000
+            with open(target_path, "w", encoding="utf-8") as f:
+                json.dump(self.prediction_history[-1000:], f, indent=2)
         except Exception as e:
-            print(f"Error saving history: {e}")
+            try:
+                with open(os.path.join("/tmp", "prediction_history.json"), "w", encoding="utf-8") as f:
+                    json.dump(self.prediction_history[-1000:], f, indent=2)
+            except Exception as e2:
+                print(f"Warning: Could not save prediction history: {e2}")
 
     def predict(self, subject: str, body: str, sender: str = "") -> Dict[str, Any]:
         if not self.is_loaded or self.model is None or self.vectorizer is None:
-            raise RuntimeError("ML model is not loaded properly.")
+            # Attempt reloading in case serverless runtime spun up dynamically
+            self._load_artifacts()
+            if not self.is_loaded or self.model is None or self.vectorizer is None:
+                raise RuntimeError("ML model is not loaded properly. Please verify model artifacts exist.")
 
         clean_subject = (subject or "").strip()
         clean_body = (body or "").strip()
@@ -92,9 +137,7 @@ class SpamPredictorService:
             ham_prob = float(probs[0])
             spam_prob = float(probs[1])
         else:
-            # Fallback for decision function models
             decision = self.model.decision_function(features)[0]
-            # Sigmoid conversion
             spam_prob = float(1.0 / (1.0 + np.exp(-decision)))
             ham_prob = 1.0 - spam_prob
             
@@ -201,21 +244,22 @@ class SpamPredictorService:
         self._save_history()
 
     def record_feedback(self, is_correct: bool, feedback_text: str = ""):
-        feedback_log_path = os.path.join(MODELS_DIR, "user_feedback.json")
+        primary_feedback = os.path.join(_resolve_models_dir(), "user_feedback.json")
+        target_path = _get_history_write_path(primary_feedback, "user_feedback.json")
         try:
             feedbacks = []
-            if os.path.exists(feedback_log_path):
-                with open(feedback_log_path, "r") as f:
+            if os.path.exists(target_path):
+                with open(target_path, "r", encoding="utf-8") as f:
                     feedbacks = json.load(f)
             feedbacks.append({
                 "timestamp": datetime.now().isoformat(),
                 "is_correct": is_correct,
                 "feedback": feedback_text
             })
-            with open(feedback_log_path, "w") as f:
+            with open(target_path, "w", encoding="utf-8") as f:
                 json.dump(feedbacks[-200:], f, indent=2)
         except Exception as e:
-            print(f"Error recording feedback: {e}")
+            print(f"Warning: Could not save feedback: {e}")
 
     def get_model_info(self) -> Dict[str, Any]:
         return {
