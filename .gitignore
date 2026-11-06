@@ -1,7 +1,6 @@
 # Dependencies
 node_modules/
 */node_modules/
-*/*/node_modules/
 dist/
 build/
 .vite/
@@ -9,7 +8,6 @@ build/
 # Python
 __pycache__/
 */__pycache__/
-*/*/__pycache__/
 *.py[cod]
 *$py.class
 *.so
@@ -23,23 +21,25 @@ venv/
 
 # Testing & Coverage
 .pytest_cache/
-*/.pytest_cache/
 .coverage
 htmlcov/
 .mypy_cache/
 .ruff_cache/
 
-# Databases
+# Databases & local state
 *.sqlite
 *.sqlite3
-*.db
 optimach.db
-phishshift.db
+backend/optimach.db
 
 # Environment variables & secrets
 .env
 .env.*
 !.env.example
+
+# Logs
+*.log
+npm-debug.log*
 
 # IDEs & OS files
 .vscode/

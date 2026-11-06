@@ -1,34 +1,35 @@
 services:
   # -------------------------------------------------------------
-  # Project 3: Email-Spam-Classifier Backend (FastAPI Web Service)
+  # OptiMach AI Backend (FastAPI Web Service)
   # -------------------------------------------------------------
   - type: web
-    name: email-spam-classifier-backend
+    name: optimach-ai-backend
     runtime: python
-    rootDir: Email-Spam-Classifier/backend
+    plan: free
     buildCommand: pip install --upgrade pip && pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    startCommand: uvicorn backend.app:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHON_VERSION
-        value: 3.12.10
+        value: 3.11.9
       - key: CORS_ORIGINS
         value: "*"
-    healthCheckPath: /health
+    healthCheckPath: /api/health
     autoDeploy: true
 
   # -------------------------------------------------------------
-  # Project 3: Email-Spam-Classifier Frontend (React Vite Static Site)
+  # OptiMach AI Frontend (React 18 + Vite Static Site)
   # -------------------------------------------------------------
   - type: static_site
-    name: email-spam-classifier-frontend
-    rootDir: Email-Spam-Classifier/frontend
+    name: optimach-ai-frontend
+    plan: free
+    rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
         fromService:
           type: web
-          name: email-spam-classifier-backend
+          name: optimach-ai-backend
           property: host
     routes:
       - type: rewrite
